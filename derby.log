@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Dec 04 19:15:51 EST 2013:
-Booting Derby (version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268)) instance a816c00e-0142-c01c-53e7-000002d4d7b0 
-on database directory /home/bill/Documents/workspace/stoker_cashier/store in READ ONLY mode with class loader sun.misc.Launcher$AppClassLoader@7e5284e9. 
-Loaded from file:/home/bill/opt/db-derby-10.10.1.1-bin/lib/derby.jar.
+Sun Dec 08 13:08:56 EST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0142-d365-d6fc-000006b12660 
+on database directory /home/bill/Documents/code/workspace/stoker_cashier/store with class loader sun.misc.Launcher$AppClassLoader@3acff49f 
+Loaded from file:/home/bill/opt/db-derby-10.10.1.1-bin/lib/derby.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_25-b30
-user.dir=/home/bill/Documents/workspace/stoker_cashier
+user.dir=/home/bill/Documents/code/workspace/stoker_cashier
 os.name=Linux
 os.arch=amd64
 os.version=3.5.0-44-generic

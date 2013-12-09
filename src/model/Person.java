@@ -57,12 +57,12 @@ public class Person {
 
 	// / GETTERS ABOVE SETTERS BELOW
 
-	public void set_hourly_rate(String _hourly_rate) {
-		this._hourly_rate = _hourly_rate;
+	public void set_hourly_rate(String hourly_rate) {
+		this._hourly_rate = hourly_rate;
 	}
 
-	public void set_social(String _social) {
-		this._social = _social;
+	public void set_social(String social) {
+		this._social = social;
 	}
 
 	public void setAll(String incFName, String incLName, Address incAddy) {
@@ -72,18 +72,18 @@ public class Person {
 		_hasChanged = true;
 	}
 
-	public void set_addy(Address _addy) {
-		this._addy = _addy;
+	public void set_addy(Address addy) {
+		this._addy = addy;
 		_hasChanged = true;
 	}
 
-	public void set_first_name(String _first_name) {
-		this._first_name = _first_name;
+	public void set_first_name(String first_name) {
+		this._first_name = first_name;
 		_hasChanged = true;
 	}
 
-	public void set_last_name(String _last_name) {
-		this._last_name = _last_name;
+	public void set_last_name(String last_name) {
+		this._last_name = last_name;
 		_hasChanged = true;
 	}
 
@@ -107,6 +107,15 @@ public class Person {
 	
 	public boolean changed() {
 		return _hasChanged;
+	}
+	
+	public boolean isMe(Person p){
+		boolean isMe = true;
+		if (p.get_first_name() != this.get_first_name()) isMe = false;
+		if (p.get_last_name() != this.get_last_name()) isMe = false;
+		//TODO: keep typing
+		
+		return isMe;
 	}
 
 	@Override

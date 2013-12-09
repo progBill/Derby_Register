@@ -34,5 +34,11 @@ public class Product {
 		_listPrice = newList;
 		_hasChanged = true;
 	}
+
+	@Override
+	public String toString() {
+		return "Product [_name=" + _name + ", _id=" + _id + ", _quantity=" + _quantity + ", _reorderLevel=" + _reorderLevel
+				+ ", _costPrice=" + _costPrice + ", _listPrice=" + _listPrice + ", _hasChanged=" + _hasChanged + "]";
+	}
 	
 }
