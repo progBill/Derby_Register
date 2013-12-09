@@ -107,7 +107,7 @@ public class Dao {
 
 	public Person findPerson(String[] inputFields) {
 		String whereClause = "";
-		// For all that is holy, there must be a better way
+		// Lord knows there's got to be a better way
 		if (!inputFields[0].equals(""))
 			whereClause += " first_name = '" + inputFields[0] + "'";
 		if (!whereClause.equals("") && !inputFields[1].equals("") && whereClause.substring(whereClause.length() - 5) != " AND ")
